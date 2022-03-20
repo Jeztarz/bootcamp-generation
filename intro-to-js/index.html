@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+    <title>Intro JS</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+    <div class="border">
+      <div>
+        <h1>DAY 17 FEB 2022</h1>
+        <h1 id="myName"></h1>
+      </div>
+      
+      <div>
+        <button onclick="askMyName()" class="btn">Ask my name</button>
+        <button onclick="helloWorld()" class="btn">Hello World</button>
+      </div>
+    </div>
+    
+
+<!-- ==== day 18/2/22 ==== -->
+<!-- exercise1 : 
+  คำนวณหาอายุจากปีเกิด โดยสร้างปุ่มขึ้นมาอีก 1 ปุ่ม เมื่อกดปุ่มให้ถามปีเกิดเป็นปี ค.ศ. 
+(สร้าง function ขึ้นมาให้เรียกเมื่อมีการกดปุ่ม ชื่อ function calAge()
+ใน function calAge() ให้เรียก prompt ขึ้นมาเพื่อให้ทุกคนกรอกอายุ 
+เมื่อกรอกเสร็จให้นำมาคำนวณหาอายุเทียบกับปีปัจจุบัน แล้วให้ Alert ข้อความว่า
+“ยินดีด้วย นายอยู่ในประเทศนี้มา xxxxx ปีแล้ว” โดยที่ xxxxx คือจำนวนอายุที่คำนวณได้ -->
+    
+  <div class="border">
+    <div>
+      <h1>DAY 18 FEB 2022</h1>
+      <h2 id="yearBirth"></h2>
+    </div>
+    <div>
+      <button onclick="calAge()" class="btn">Birthyear ?</button>
+    </div>
+
+<!-- Exercise 2 .
+    สร้าง HTML element ที่มีหน้าตาดังนี้
+    <p><strong>Name:</strong><p id="my-name"></p></p>
+    <p><strong>Province:</strong><p id="my-province"></p></p>
+    <button>Load Profile</button>
+    ให้สร้าง function loadProfile() ขึ้นมา ภายใน function ให้สร้างตัวแปรชื่อว่า name และ province แล้วใส่ข้อมูลของตัวเองลงไป
+    ผูก function loadProfile เข้ากับปุ่ม Load Profile เมื่อกด ให้ set ค่า ใน HTML element ของ id "my-name" และ "my-province" ด้วยตัวแปร name และ province
+    โดย HTML element หลังการกดปุ่มต้องมีหน้าตาดังนี้ (ตัวอย่าง name="Natthanu"  และ province="Ratchaburi"
+    <p><strong>Name:</strong><p id="my-name">Natthanun</p></p>
+    <p><strong>Province:</strong><p id="my-province">Ratchaburi</p></p>
+    <button>Load Profile</button> -->
+
+    <div>
+      <p><p id="my-name"></p></p>
+      <p><p id="my-province"></p></p>
+      <button onclick="loadProfile()" class="btn">Load Profile</button>
+    </div>
+  </div>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+

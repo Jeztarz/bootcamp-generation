@@ -1,0 +1,170 @@
+/*---- Common ----*/
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section-title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.section {
+  margin-bottom: 64px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+/*---- Menu ----*/
+.logo {
+  height: 20px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 24px; 
+}
+/*---- Hero Section ----*/
+.hero-section {
+  height: 720px;
+  padding-top: 128px;
+  background-image: url('../images/hero-background.jpg'); /* Photo by Nicholas Kampouris on Unsplash */
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-title{
+  font-size: 64px;
+  font-weight: 600;
+  padding-top: 128px;
+  height: 720px;
+}
+/*---- Collection Section ----*/
+.collection-item {
+  background-size: cover;
+  background-position: 50% 82%;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.collection-item-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.collection-item-one {
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.1)),
+    url('../images/classic-collection.jpg'); /* Photo by NordWood Themes on Unsplash */
+}
+
+.collection-item-two {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url('../images/sport-collection.jpg'); /* Photo by Tom Radetzki on Unsplash */
+}
+
+.collection-item-three {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url('../images/sandal-collection.jpg'); /* Photo by Andy Garza on Unsplash */
+}
+
+.collection-item-four {
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.2)),
+    url('../images/casual-collection.jpg'); /* Photo by Trendest Studio on Unsplash */
+}
+
+/*---- Product Section ----*/
+.product-item {
+  margin-bottom: 16px;
+  padding: 0px 16px;
+  width: calc(90% / 3);
+  position: relative;
+}
+
+.product-item-image {
+  margin-bottom: 12px;
+  width: 100%;
+  border-radius: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 250px;
+  object-fit: cover;
+}
+
+.product-item-title {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.price {
+  margin-bottom: 8px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+}
+
+
+/*---- About Section ----*/
+.about-content {
+  display: flex;
+}
+
+.about-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.about-image {
+  width: 50%;
+  height: 320px;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.about-description {
+
+}
+
+/*---- ----*/
+.product-label {
+  background-color: #f87060;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px;
+  width: fit-content;
+  top: 24px;
+  left: 4px;
+  position: absolute;
+}

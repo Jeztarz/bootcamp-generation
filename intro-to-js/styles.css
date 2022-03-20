@@ -1,0 +1,62 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg,#f79ac8 0%,#7667ff 95%);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.First-git {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #cf5291;
+    padding: 10px;
+}
+
+
+.final-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #cf5291;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #ffc2c2;
+}
+
+.btn {
+    background: #cf5291;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    width: 200px;
+    padding: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
+.border {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 4px solid #c24383;
+    border-radius: 15px;
+    width: 50%;
+    height: auto;
+    margin: 10px 0;
+    padding-bottom: 30px;
+    text-align: center;
+}
